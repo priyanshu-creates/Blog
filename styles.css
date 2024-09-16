@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    
+}
+
+.shadow{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Blog Title, subscribe,search icon */
+.header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:relative;
+    padding-bottom:30px;
+}
+
+.spacer{
+    height:30px
+}
+
+.blogtitle {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration:underline;
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%);
+    padding-bottom: 20px;
+}
+
+.subscribe {
+    color: grey;
+    cursor: pointer;
+}
+
+.img{
+    height:20px;
+    width:20px;
+    position:absolute;
+    right:20px;
+    top:20px;
+   
+}
+
+/* Grid Layout for the blog posts */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
+    grid-gap: 30px; /* Spacing between the grid items */
+    margin-top: 20px;
+}
+
+.example-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.world{
+    color:blue;
+    font-weight:bold;
+}
+
+.blogpost{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.nov{
+    color:grey;
+}
+
+.post-box{
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.design{
+    color:green;
+    font-weight:bold;
+}
+
+.post{
+    font-size:24px;
+    font-weight:bold;
+}
